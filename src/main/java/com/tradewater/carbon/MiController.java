@@ -15,4 +15,9 @@ public class MiController {
     public String chao() {
         return "Nos vemos amiga";
     }
+    
+    @RequestMapping("/api/hastapronto")
+    public String chao() {
+        return "Hasta pronto amiga";
+    }
 }
