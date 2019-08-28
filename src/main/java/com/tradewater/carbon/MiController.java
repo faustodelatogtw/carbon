@@ -17,7 +17,7 @@ public class MiController {
     }
     
     @RequestMapping("/api/hastapronto")
-    public String chao() {
+    public String hastapronto() {
         return "Hasta pronto amiga";
     }
 }
