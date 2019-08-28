@@ -8,16 +8,16 @@ public class MiController {
     
     @RequestMapping("/api/hola")
     public String hola() {
-        return "Hola amiga";
+        return "Hola amigaaaaa";
     }
     
     @RequestMapping("/api/chao")
     public String chao() {
-        return "Nos vemos amiga";
+        return "Nos vemos amigaaaaa";
     }
     
     @RequestMapping("/api/hastapronto")
     public String hastapronto() {
-        return "Hasta pronto amiga";
+        return "Hasta pronto amigaaaaa";
     }
 }
