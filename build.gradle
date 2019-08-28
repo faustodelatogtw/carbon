@@ -16,3 +16,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
+
+tasks.register("deploy-qa") { 
+    doLast { 
+        println 'deploy to QA'
+    }
+}
