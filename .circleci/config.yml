@@ -49,7 +49,8 @@ workflows:
             - test
       - qa-approval:
           type: approval
-          requires: deploy-qa
+          requires: 
+            - deploy-qa
       - deploy:
           requires:
             - qa-approval
